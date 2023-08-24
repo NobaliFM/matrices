@@ -9,6 +9,7 @@ int save_matrix(int columns, int rows, int matrix[columns][rows]){
     };
 	return 0;
 	};
+
 int matrix_display(int nColums, int nRows, int matrix[nColums][nRows]){
     int l,p;
     for (l=1;l<=nColums;l++){
@@ -19,6 +20,7 @@ int matrix_display(int nColums, int nRows, int matrix[nColums][nRows]){
     };
     return 0;
   };
+  
 int main (void){
 	 int i,j,k,o,num;
 	 printf("MULTIPLICADOR DE MATRICES\n\n");
