@@ -93,4 +93,7 @@ int main() {
 		}
 		cout<<endl;
 	}
+	
+	string nombre = "";
+	cin>>nombre;
 }
