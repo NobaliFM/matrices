@@ -1,10 +1,9 @@
-// Escribe las librerías con las que se empieza un programa de C++, así como su estructura
+// Escribe las librerías con las que se empieza un programa de C++, así como su estructura (no todas, pero por si acaso)
 #include <iostream> // Libreria para entrada y salida estándar (cout, cin)
 #include <stdlib.h>
 #include <stdio.h>
 #include <algorithm>
 #include <math.h>
-
 int matrices, m1, n1, m2, n2;
 using namespace std; // Necesario siempre al usar cout o cin
 int main() {
