@@ -33,6 +33,7 @@ int main()
         for (int i = 0; i < m1; i++)
         {
             cout << "Ingresa m" << i << "j" << j << ": ";
+            matriz1[i][j] = 0;
             cin >> matriz1[i][j];
             cout << endl;
         }
