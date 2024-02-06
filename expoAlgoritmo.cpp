@@ -8,22 +8,43 @@
 
 using namespace std; // Necesario siempre al usar cout o cin
 
-int opcion, cantidad;
+int opcion, cantidad = 0, producto = 0, suma = 0;
 double suma;
 
 int main() {
 	system("color 0a");
-	cout<<"Regalos FCCDevs S. A. de C. V."<<endl<<"Elija el artículo o proceda al cobro: "<<endl<<"1.- Muñeca B ($250)"
-	    <<endl<<"2.- Caja de plumones de colores ($120)"<<endl
-	    <<"3.- Pluma de color ($20)"<<endl
-	    <<"4.- Carro de bomberos ($350)"<<endl
-	    <<"5.- Dinosaurio ($280)"<<endl
-	    <<"6.- Proceder al cobro."
-	    <<endl<<"Indique la opción: ";
-	    cin>>opcion;
 
-	switch(opcion) {
+	while(opcion = 1) {
 	}
+
+	while((opcion >='1') && (opcion<='5')) {
+		//Replicar
+		cout<<"Regalos FCCDevs S. A. de C. V."<<endl<<"Elija el artículo o proceda al cobro: "<<endl
+		<<"1.- Muñeca B ($250)"
+		    <<endl<<"2.- Caja de plumones de colores ($120)"<<endl
+		    <<"3.- Pluma de color ($20)"<<endl
+		    <<"4.- Carro de bomberos ($350)"<<endl
+		    <<"5.- Dinosaurio ($280)"<<endl
+		    <<"6.- Proceder al cobro."
+		    <<endl<<"Indique la opción: ";
+		cin>>opcion;
+		
+
+		switch(opcion) {
+			case '1':
+				
+				break;
+			case '2':
+				break;
+			case '3':
+				break;
+			case '4':
+				break;
+			case '5':
+				break;
+		}
+	}
+
 
 	/*
 	if (suma > 1000) {

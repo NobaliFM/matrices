@@ -27,6 +27,7 @@ int main()
         exit;
     }
     int matriz1[m1][n1];
+    
     cout << "Ingresa las datos de la matriz 1:" << endl;
     for (int j = 0; j < n1; j++)
     {
@@ -38,6 +39,8 @@ int main()
             cout << endl;
         }
     }
+    
+    
     for (int i = 0; i < m1; i++)
     {
         cout << "   ";
